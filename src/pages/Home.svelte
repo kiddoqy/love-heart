@@ -65,7 +65,7 @@
 {:else if isShowLove === "love1"}
   <Love />
 {:else}
-  <Layout say={"你是 口中情 眼中喜 心中爱 意中人"}>
+  <Layout say={"你是天上月人间雪，是我命中的不可或缺"}>
     <div class="text-center">
       <Heart name={yourName} />
     </div>

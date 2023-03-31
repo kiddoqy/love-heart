@@ -10,7 +10,7 @@
 </script>
 
 <!-- class="flex flex-col justify-center items-center" -->
-<Layout say={"你是 口中情 眼中喜 心中爱 意中人"}>
+<Layout say={"你是天上月人间雪，是我命中的不可或缺"}>
   <!-- <div class="text-center">
     <Heart {name} />
   </div> -->
