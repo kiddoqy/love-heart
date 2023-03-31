@@ -38,16 +38,16 @@
   <Layout say={"刚好，这里有一封给你的信"}>
     {#if isShowInput}
       <form class="pl-8 sm:pl-16 transform translate-y-24">
-        <label for="name" class="text-xl font-thin">亲爱的：</label>
-        <input
-          type="text"
-          name={yourName}
-          id="name"
-          required
-          placeholder="你的名字"
-          bind:value={yourName}
-          class="border-b bg-gray-100 h-9 p-2 w-32 rounded-md"
-        />
+        <label for="name" class="text-xl font-thin">亲爱的扬扬</label>
+<!--        <input-->
+<!--          type="text"-->
+<!--          name={yourName}-->
+<!--          id="name"-->
+<!--          required-->
+<!--          placeholder="你的名字"-->
+<!--          bind:value={yourName}-->
+<!--          class="border-b bg-gray-100 h-9 p-2 w-32 rounded-md"-->
+<!--        />-->
       </form>
     {/if}
     <!-- 信封图片 -->
@@ -67,7 +67,8 @@
 {:else}
   <Layout say={"你是天上月人间雪，是我命中的不可或缺"}>
     <div class="text-center">
-      <Heart name={yourName} />
+<!--      <Heart name={yourName} />-->
+      <Heart name=扬扬 />
     </div>
   </Layout>
 {/if}
